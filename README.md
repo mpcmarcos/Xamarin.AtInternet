@@ -3,7 +3,7 @@
 This project gives an example to use AT Internet in Xamarin. 
 
 This project has two parts:
-1. Swift project that create a wrapper for the the library Tracker.framework
+1. Swift project that create a wrapper/proxy for the the library Tracker.framework
 2. Xamarin Project showing how to use, in Android and IOS
 
 ## Compiling a Wrapper
@@ -13,7 +13,7 @@ Each change on the swift project, must be compiled and releasing in the Xamarin.
 You must to execute the next script to release:
 
 ```
-cd ~/Projects/ATInternet/ATInternetProxy
+cd ATInternetProxy
 
 rm -Rf build
 xcodebuild -sdk iphonesimulator13.2 -project "ATInternetProxy.xcodeproj" -configuration Release
