@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/marcospalacios/Projects/ATInternet/ATInternetProxy/build/Release-iphoneos/ATInternetProxy.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/marcospalacios/Projects/ATInternet/ATInternetProxy/build/ATInternetProxy.build/Release-iphoneos/ATInternetProxy.build/unextended-module.modulemap",
+    }]
+  }]
+}

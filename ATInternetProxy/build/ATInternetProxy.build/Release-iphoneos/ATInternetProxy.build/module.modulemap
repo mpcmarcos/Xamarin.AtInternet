@@ -1,0 +1,11 @@
+framework module ATInternetProxy {
+  umbrella header "ATInternetProxy.h"
+
+  export *
+  module * { export * }
+}
+
+module ATInternetProxy.Swift {
+    header "ATInternetProxy-Swift.h"
+    requires objc
+}

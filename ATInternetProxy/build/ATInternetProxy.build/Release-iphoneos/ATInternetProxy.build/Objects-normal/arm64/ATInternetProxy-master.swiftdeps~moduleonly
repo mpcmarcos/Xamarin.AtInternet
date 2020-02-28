@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "baef675cab64febb8ee5b2bec29cc2db"
+build_time: [1582844298, 457711000]
+inputs:
+  "/Users/marcospalacios/Projects/ATInternet/ATInternetProxy/ATInternetProxy/ATInternetProxy.swift": [9223372036, 854775807]
